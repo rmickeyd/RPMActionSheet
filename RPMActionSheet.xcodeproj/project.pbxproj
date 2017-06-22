@@ -14,6 +14,11 @@
 		071B01FC1EFB6B0C0087093D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071B01FA1EFB6B0C0087093D /* LaunchScreen.storyboard */; };
 		071B02071EFB6B0C0087093D /* RPMActionSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B02061EFB6B0C0087093D /* RPMActionSheetTests.swift */; };
 		071B02121EFB6B0C0087093D /* RPMActionSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B02111EFB6B0C0087093D /* RPMActionSheetUITests.swift */; };
+		071B02201EFB6B6A0087093D /* RPMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B021F1EFB6B6A0087093D /* RPMAlertAction.swift */; };
+		071B02221EFB6BF50087093D /* RPMActionSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B02211EFB6BF50087093D /* RPMActionSheetViewController.swift */; };
+		071B02241EFB6C690087093D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B02231EFB6C690087093D /* UIViewExtensions.swift */; };
+		071B02261EFB6D120087093D /* RPMActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B02251EFB6D120087093D /* RPMActionTableViewCell.swift */; };
+		071B022A1EFB6DFC0087093D /* DimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B02291EFB6DFC0087093D /* DimmingPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		071B020D1EFB6B0C0087093D /* RPMActionSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPMActionSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		071B02111EFB6B0C0087093D /* RPMActionSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPMActionSheetUITests.swift; sourceTree = "<group>"; };
 		071B02131EFB6B0C0087093D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071B021F1EFB6B6A0087093D /* RPMAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPMAlertAction.swift; sourceTree = "<group>"; };
+		071B02211EFB6BF50087093D /* RPMActionSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPMActionSheetViewController.swift; sourceTree = "<group>"; };
+		071B02231EFB6C690087093D /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		071B02251EFB6D120087093D /* RPMActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPMActionTableViewCell.swift; sourceTree = "<group>"; };
+		071B02291EFB6DFC0087093D /* DimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DimmingPresentationController.swift; path = ../DimmingPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 			children = (
 				071B01F11EFB6B0C0087093D /* AppDelegate.swift */,
 				071B01F31EFB6B0C0087093D /* ViewController.swift */,
+				071B022B1EFB759B0087093D /* RPMActionSheet */,
 				071B01F51EFB6B0C0087093D /* Main.storyboard */,
 				071B01F81EFB6B0C0087093D /* Assets.xcassets */,
 				071B01FA1EFB6B0C0087093D /* LaunchScreen.storyboard */,
@@ -123,6 +134,18 @@
 				071B02131EFB6B0C0087093D /* Info.plist */,
 			);
 			path = RPMActionSheetUITests;
+			sourceTree = "<group>";
+		};
+		071B022B1EFB759B0087093D /* RPMActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				071B02291EFB6DFC0087093D /* DimmingPresentationController.swift */,
+				071B02231EFB6C690087093D /* UIViewExtensions.swift */,
+				071B021F1EFB6B6A0087093D /* RPMAlertAction.swift */,
+				071B02211EFB6BF50087093D /* RPMActionSheetViewController.swift */,
+				071B02251EFB6D120087093D /* RPMActionTableViewCell.swift */,
+			);
+			name = RPMActionSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071B02201EFB6B6A0087093D /* RPMAlertAction.swift in Sources */,
+				071B022A1EFB6DFC0087093D /* DimmingPresentationController.swift in Sources */,
+				071B02261EFB6D120087093D /* RPMActionTableViewCell.swift in Sources */,
+				071B02241EFB6C690087093D /* UIViewExtensions.swift in Sources */,
 				071B01F41EFB6B0C0087093D /* ViewController.swift in Sources */,
+				071B02221EFB6BF50087093D /* RPMActionSheetViewController.swift in Sources */,
 				071B01F21EFB6B0C0087093D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
